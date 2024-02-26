@@ -1,0 +1,38 @@
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f50000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: #000;
+  }
+  
+  /* CSS for color changing on click */
+  .clickable-element {
+    cursor: pointer;
+  }
+  
+  /* CSS for animation on click */
+  .animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+  }
+  
+  /* CSS for changing position on mouse hover */
+  .hover-element {
+    width: 100px;
+    height: 100px;
+    background-color: #00f;
+}
+  .hover-change{
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+  }
